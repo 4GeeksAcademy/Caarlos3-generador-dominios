@@ -7,5 +7,20 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  let pronoun = ['the', 'our'];
+  let adj = ['great', 'big'];
+  let noun = ['jogger', 'racoon'];
+  let extension =['.com', '.es', '.net']
+  for (let i of pronoun){
+    for(let a of adj){
+      for(let n of noun){
+        for(let e of extension){
+          console.log(i+a+n+e);
+        }
+      }
+    }
+  }
+
 };
+
+  
